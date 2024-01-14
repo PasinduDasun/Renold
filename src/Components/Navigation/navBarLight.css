@@ -1,0 +1,46 @@
+.navBarBox{
+    display: flex;
+    height: 40px;
+    width: 100%;
+    background-color: antiquewhite;
+    padding: 5px;
+    padding-left: 50px;
+    padding-right: 50px;
+    position: sticky;
+}
+
+.navBarLeft{
+    flex: 3;
+    display: flex;
+}
+
+.navBarRight{
+    flex: 5;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: black;
+}
+
+.navBarRight ul li {
+    display: inline-block;
+    border: 2px solid red;
+    padding: 10px;
+}
+
+.navBarRight ul {
+    text-decoration: none;
+}
+
+
+.companyLogo{
+    cursor: pointer;
+}
+
+.logo{
+    font-size: 33px;
+    color: red;
+    font-weight: 200;
+    cursor: pointer;
+    font-family: 'Open Sans';
+}
