@@ -1,10 +1,10 @@
 import React from "react";
-import NavBarLight from "../Components/Navigation/NavBarLight";
+import Hero from "../Components/HeroSection/Hero";
 
 export default function Home() {
   return (
     <>
-      <NavBarLight />
+      <Hero/>
       <h1>This is home page</h1>
       <h1>This is home page</h1>
       <h1>This is home page</h1>

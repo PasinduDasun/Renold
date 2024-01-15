@@ -1,10 +1,9 @@
 import React from 'react'
-import NavBarLight from '../Components/Navigation/NavBarLight'
 
 function ContactUs() {
   return (
     <div>
-        <NavBarLight/>
+        This is ContactUs page
     </div>
   )
 }

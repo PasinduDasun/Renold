@@ -1,10 +1,9 @@
 import React from 'react'
-import NavBarLight from '../Components/Navigation/NavBarLight'
 
 function OurCustomers() {
   return (
     <div>
-        <NavBarLight/>
+        This is our customer page
     </div>
   )
 }
