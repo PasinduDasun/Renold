@@ -1,6 +1,7 @@
 import React from 'react'
 import './hero.css';
-import heroImange from '../../Images/png-transparent-ginseng-tea-white-tea-green-tea-cup-tea-food-tea-teacup.png';
+import heroimage from '../../Images/welding-1838986_1280.jpg'
+
 
 function Hero() {
   return (
@@ -10,7 +11,7 @@ function Hero() {
             <button>Contact Us</button>
         </div>
         <div className="rightsection">
-            <img src={heroImange} className='heroImage' alt='Tea machine'/>
+          <img src={heroimage} alt='hero' className='heroimage'/>
         </div>
     </div>
   )

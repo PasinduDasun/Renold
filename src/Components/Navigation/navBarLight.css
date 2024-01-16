@@ -1,5 +1,8 @@
 * {
     box-sizing: border-box;
+    font-family: 'Open Sans';
+    font-size: 14px;
+    padding-top: 1px;
   }
 
 .navBarBox{
@@ -7,7 +10,7 @@
     height: 40px;
     width: 100%;
     background-color: white;
-    padding: 5px 50px;
+    padding: 0px 150px;
     position: sticky;
 }
 
@@ -20,32 +23,33 @@
     flex: 5;
     display: flex;
     align-items: center;
-    border: 1px solid blue;
     justify-content: right;
-    padding-right: 100px ;
+    padding-right: 50px ;
 }
 
 .navBarRight ul li {
     display: block;
     float: left;
-    border: 2px solid red;
     text-align: center;
     padding: 10px;
     text-decoration: none;
 }
-.menuitems {
-    text-decoration: none;
-}
 
+.navBarRight ul li a {
+    text-decoration: none;
+    color: black;
+}
 
 .companyLogo{
     cursor: pointer;
 }
 
 .logo{
-    font-size: 33px;
+    font-size: 18px;
     color: red;
-    font-weight: 200;
+    margin-left: 10px;
+    padding: 10px 0px;
+    font-weight: 400;
+    align-items: center;
     cursor: pointer;
-    font-family: 'Open Sans';
 }

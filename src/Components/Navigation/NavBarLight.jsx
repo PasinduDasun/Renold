@@ -1,6 +1,6 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom';
-import renoldLogo from '../../Images/instalogo.png';
+import renoldLogo from '../../Images/logo.png';
 import './navBarLight.css';
 
 function NavBarLight() {

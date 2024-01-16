@@ -1,0 +1,25 @@
+.mainHeroSection{
+    display: flex;
+    margin: 15px;
+}
+
+.leftsection{
+    flex: 3;
+    background-color: black;
+    color: white;
+    border-bottom-left-radius: 30px;
+}
+
+.heroimage{
+    max-width: 90%;
+    max-height: 90%;
+}
+
+.rightsection{
+    flex: 7;
+    background-color: black;
+    height: 630px;
+    width: auto;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
