@@ -7,7 +7,8 @@ function Hero() {
   return (
     <div className='mainHeroSection'>
         <div className="leftsection">
-            <h3>Leading Tea Machinery Manufacturing Company In Southern Provice</h3>
+            <h3>Renold Engineering: Elevating Tea Machinery, Blending Tradition with Innovation</h3>
+            <p>Welcome to Renold Engineering, a pioneering force in the heart of Sri Lanka's tea industry. As a leading tea machinery manufacturing company, we take pride in our commitment to excellence, innovation, and the seamless fusion of tradition with cutting-edge engineering.</p>
             <button>Contact Us</button>
         </div>
         <div className="rightsection">
