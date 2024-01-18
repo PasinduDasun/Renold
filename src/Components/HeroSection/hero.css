@@ -1,16 +1,39 @@
+button{
+    margin: 20px 0px;
+    color: black;
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-weight: 600;
+}
+
 .mainHeroSection{
     display: flex;
     margin: 15px;
 }
 
 .leftsection{
-    flex: 3;
+    flex: 4;
     background-color: black;
     color: white;
     border-bottom-left-radius: 30px;
+    padding: 10% 0%;
+    padding-left: 6%;
 }
 
+.leftsection h3 {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.leftsection p {
+    font-size: 14px;
+    font-weight: 100;
+}
+
+
 .heroimage{
+    padding-top: 10%;
     max-width: 90%;
     max-height: 90%;
 }
